@@ -17,10 +17,10 @@ app.post("/api/reset-password", (req, res) => {
   }
 
   // Simulation réussite
-  console.log("Reset demandé pour :", email);
+  console.log("Reset demandé pour :", email , "mot de passe actuel : ",currentPassword , "mot de passe new : ",newPassword);
 
   return res.status(200).json({
-    message: "Mot de passe mis à jour avec succès (simulation)."
+    message: "Mot de passe mis à jour avec succès ."
   });
 });
 

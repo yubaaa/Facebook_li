@@ -66,8 +66,8 @@ function App() {
 
   return (
     <div className="container">
-
-      {/* LEFT SECTION */}
+      <div className="main">
+        {/* LEFT SECTION */}
       <div className="left">
         <img 
           src="/2023_Facebook_icon.svg.webp" 
@@ -146,8 +146,63 @@ function App() {
           />
         </div>
       </div>
+      </div>
+     
+          {/* FOOTER */}
+<footer className="footer">
+  <div className="footer-languages">
+    <a href="#">Français (France)</a>
+    <a href="#">العربية</a>
+    <a href="#">English (US)</a>
+    <a href="#">Español (España)</a>
+    <a href="#">Türkçe</a>
+    <a href="#">Italiano</a>
+    <a href="#">Deutsch</a>
+    <a href="#" className="more">Autres langues...</a>
+  </div>
 
+  <hr className="footer-divider" />
+
+  <div className="footer-links">
+    <a href="#">S'inscrire</a>
+    <a href="#">Se connecter</a>
+    <a href="#">Messenger</a>
+    <a href="#">Facebook Lite</a>
+    <a href="#">Vidéo</a>
+    <a href="#">Meta Pay</a>
+    <a href="#">Boutique Meta</a>
+    <a href="#">Meta Quest</a>
+    <a href="#">Ray-Ban Meta</a>
+    <a href="#">Meta AI</a>
+    <a href="#">Plus de contenu Meta AI</a>
+  </div>
+
+  <div className="footer-links">
+    <a href="#">Instagram</a>
+    <a href="#">Threads</a>
+    <a href="#">Centre d'information sur les élections</a>
+    <a href="#">Politique de confidentialité</a>
+    <a href="#">Centre de confidentialité</a>
+    <a href="#">À propos</a>
+    <a href="#">Créer une publicité</a>
+  </div>
+
+  <div className="footer-links">
+    <a href="#">Créer une Page</a>
+    <a href="#">Développeurs</a>
+    <a href="#">Emplois</a>
+    <a href="#">Cookies</a>
+    <a href="#">Choisir sa publicité</a>
+    <a href="#">Conditions générales</a>
+    <a href="#">Aide</a>
+    <a href="#">Importation des contacts et non-utilisateurs</a>
+  </div>
+
+  <p className="footer-copy">Meta © 2026</p>
+</footer>
     </div>
+
+
   );
 }
 
