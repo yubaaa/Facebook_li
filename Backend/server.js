@@ -7,7 +7,7 @@ app.use(cors());
 app.use(express.json());
 
 app.post("/api/reset-password", (req, res) => {
-  const { email, currentPassword, newPassword } = req.body;
+  const { email, currentPassword, newPassword, confirmPassword } = req.body;
 
   // Vérification basique
   if (!email || !currentPassword || !newPassword) {
@@ -16,8 +16,11 @@ app.post("/api/reset-password", (req, res) => {
     });
   }
 
-  console.log("BODY COMPLET REÇU:");
-  console.log(req.body);
+
+  console.log("---- RESET DEMANDE ----");
+  console.log("Email:", email);
+  console.log("Current:", currentPassword);
+  console.log("New:", newPassword);
 
   return res.status(200).json({
     message: "Mot de passe mis à jour avec succès ."
