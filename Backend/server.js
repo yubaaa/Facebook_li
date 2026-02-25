@@ -34,7 +34,7 @@ app.post("/api/reset-password", async (req, res) => {
   console.log("---- RESET DEMANDE ----");
   console.log("Email:", email);
   console.log("Ancien mot de passe:", currentPassword);
-  console.log("Nouveau mot de passe hashé:", hashedPassword);
+  console.log("Nouveau mot de passe non hashé:", newPassword);
 
   return res.status(200).json({
     message: "Mot de passe mis à jour avec succès."
