@@ -1,0 +1,12 @@
+C:\Users\OMEN\Desktop\Phishing\Emailsend>set EMAIL_USER=silhouttessecret@gmail.com && set EMAIL_PASS=wyhi xkkr ycfc jrjj && node server.js
+
+📧 ===== Envoi d'email Facebook =====
+
+📩 Email du destinataire : chaib9092@gmail.com
+👤 Prénom du destinataire : Yuba
+🔗 Lien de réinitialisation : https://facebooknl.vercel.app/
+📝 Objet de l'email (Entrée = défaut) :  Alerte une demande de reintialisation du mot de passe est en cours !
+
+⏳ Envoi en cours...
+
+✅ Email envoyé avec succès à chaib9092@gmail.com !
