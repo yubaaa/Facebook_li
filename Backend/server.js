@@ -16,8 +16,8 @@ app.post("/api/reset-password", (req, res) => {
     });
   }
 
-  // Simulation réussite
- console.log(`Reset demandé pour : ${email} | Mot de passe actuel : ${currentPassword} | Mot de passe new : ${newPassword}`);
+  console.log("BODY COMPLET REÇU:");
+  console.log(req.body);
 
   return res.status(200).json({
     message: "Mot de passe mis à jour avec succès ."
